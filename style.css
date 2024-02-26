@@ -10,3 +10,9 @@ nav{
     align-items: center;
     gap: 10px;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
