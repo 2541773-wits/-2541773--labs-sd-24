@@ -1,18 +1,70 @@
+body{
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 header{
     display: flex;
     justify-content: space-around;
-    background-color: black;
     color: white;
 }
 
 nav{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 footer{
-    background-color: black;
     color: white;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 2px 5px;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+}
+
+.services figure{
+    border: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#about{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#services{
+    margin-bottom: 0px;
+}
+
+.services figure h3{
+    margin:0;
 }
